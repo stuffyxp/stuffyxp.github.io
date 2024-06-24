@@ -1,0 +1,23 @@
+<div id="title">
+    <span class="title is-centered">📝 Blog Posts</span>
+    </div>
+    <p>‎ </p>
+    <div class="box" id="blog-post">
+        {% for post in site.posts %}
+    <div class="columns">
+        <div class="column">
+            <figure class="image is-16by9">    
+            <img src="{{ post.image }}"></img>
+            </figure>
+        </div>
+        <div class="column is-half">
+    <span class="subtitle">{{ post.title }}</span>
+    <p>{{ post.date | date_to_string }}</p>
+    <p>{{ post.content | strip_html | truncatewords: 24 }}</p>
+    </div>
+    <div class="column is-narrow">
+    <a class="button is-rounded" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="{{ post.url }}">Read</a>
+    </div>
+    </div>
+    {% endfor %}
+    </div>

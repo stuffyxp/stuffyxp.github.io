@@ -1,0 +1,118 @@
+@import url('https://fonts.cdnfonts.com/css/leelawadee');
+
+* {
+	font-family: 'Leelawadee', 'Noto Sans';
+}
+
+html {
+	background-image: url('../img/Foggy Evening1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#background {
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+}
+
+#logo {
+	position: relative;
+	display: block;
+  	height: auto;
+	width: 320;
+	margin: 0 auto;
+	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
+}
+
+#footer {
+	text-align: center;
+	width: 1116px;
+	height: 139px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(000, 000, 000, 0.1);
+	color: white;
+}
+
+#tabsandcontent {
+	text-align: left;
+	width: 1116px;
+	height: auto;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(000, 000, 000, 0.1);
+	color: white;
+}
+
+#title {
+	text-align: center;
+}
+
+.tabs a {
+	color: solid white;
+	background-color: rgba(000, 000, 000, 0.05) !important;
+	border: 0px rgba(000, 000, 000, 0) !important;
+}
+
+#blog-post {
+	text-align: left;
+	width: 1078px;
+	height: auto;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(000, 000, 000, 0.1);
+	color: white;
+}
+
+#build {
+	color: white !important;
+	text-align: right;
+}
+
+#card {
+    background-color: rgba(000, 000, 000, 0.1);
+    color: white;
+}
+
+.button {
+    background-color: rgba(000, 000, 000, 0.1);
+    color: white;
+    margin: 0;
+	padding: 0;
+}
+
+button {
+    background-color: rgba(000, 000, 000, 0.1);
+    color: white;
+    margin: 0;
+	padding: 0;
+}
+
+.subtitle {
+        color: white !important;
+	font-size: 30px !important;
+}
+
+.tab-content {
+      display: none;
+}
+.tab-content.is-active {
+      display: block;
+}
+
+p a {
+	color: rgba(137, 196, 244, 1) !important;
+}
+
+#tabs {
+	color: white !important;
+	background-color: rgba(137, 196, 244, 1) !important;
+}
+
+button {
+	background-color: rgba(255, 255, 255, 0) !important;
+	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
+}
