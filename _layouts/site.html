@@ -7,48 +7,41 @@
 	<link rel="stylesheet" href="../../css/main.css" type="text/css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
-	<link rel="icon" type="image" href="../img/favicon.png">
-	<meta property="og:type" content="website">
-        <meta property="og:url" content="stuffyxp.github.io">
-        <meta property="og:title" content="Stuffy">
-        <meta property="og:image" content="https://stuffyxp.github.io/img/a.png">
-        <meta property="og:description" content="Stuffy's official website + blog!">
+	<link rel="icon" type="image" href="{{ site.baseurl }}/img/favicon.png">
 </head>
 <body>
-<div id="background">
-</div>
 <img id="logo" src="./img/stuffy_wordmark1.png" alt="Stuffy wordmark" title="Stuffy" width="320" height="220" class="is-align-self-center">
 <div class="box" id="tabsandcontent">
-<div class="tabs is-centered is-fullwidth is-toggle">
+<div class="tabs is-fullwidth is-toggle">
   <ul>
     <li class="is-active">
       <a onclick="openTab(event, 'home')">
         <span class="icon is-small"><i class="fas fa-home" aria-hidden="true"></i></span>
-        <span>&nbsp;Home</span>
+        <span class="is-hidden-mobile">&nbsp;Home</span>
       </a>
     </li>
     <li>
       <a onclick="openTab(event, 'blog')">
         <span class="icon is-small"><i class="fas fa-pen" aria-hidden="true"></i></span>
-        <span>&nbsp;Blog</span>
+        <span class="is-hidden-mobile">&nbsp;Blog</span>
       </a>
     </li>
     <li>
       <a onclick="openTab(event, 'socials')">
         <span class="icon is-small"><i class="fas fa-user-group" aria-hidden="true"></i></span>
-        <span>&nbsp;Socials</span>
+        <span class="is-hidden-mobile">&nbsp;Socials</span>
       </a>
     </li>
     <li>
       <a onclick="openTab(event, 'projects')">
         <span class="icon is-small"><i class="fas fa-laptop-code" aria-hidden="true"></i></span>
-        <span>&nbsp;Projects</span>
+        <span class="is-hidden-mobile">&nbsp;Projects</span>
       </a>
     </li>
     <li>
       <a onclick="openTab(event, 'about')">
         <span class="icon is-small"><i class="fas fa-question" aria-hidden="true"></i></span>
-        <span>&nbsp;About</span>
+        <span class="is-hidden-mobile">&nbsp;About</span>
       </a>
     </li>
   </ul>
@@ -62,15 +55,21 @@
 <p>‎ </p>
 <p>Big shoutout to <a href="https://lynxmic.github.io">Lynxmic</a> for helping me out with the code and other things. Thanks! <3</p>
 </div>
+<div class="content">
+<p>
+<p>‎ </p>
+<p>‎ </p>
+<p>‎ </p>
+<p>‎ </p>
 <div id="build">
 <div id="info">
       <p id="userAgent"></p>
-      <p id="websiteBuild"></p>
 </div>
 </div>
-<p>‎ </p>
-<p>‎ </p>
+</p>
+</div>
 <script type="text/javascript" src="../js/tabs.js"></script>
 <script type="text/javascript" src="../js/build.js"></script>
+<script type="text/javascript" src="../js/holiday.js"></script>
 </body>
 </html>

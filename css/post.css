@@ -26,8 +26,6 @@ html {
 
 #footer {
 	text-align: center;
-	width: 1056px;
-	height: 139px;
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -37,8 +35,6 @@ html {
 
 #tabsandcontent {
 	text-align: center;
-	width: 998px;
-	height: auto;
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -55,8 +51,6 @@ html {
 }
 
 #content {
-	width: 1056px;
-	height: auto;
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -94,7 +88,24 @@ p a {
 	color: rgba(137, 196, 244, 1) !important;
 }
 
+.postdate {
+	color: rgba(211, 211, 211, 1) !important;
+	font-size: 22px !important;
+}
+
 button {
 	background-color: rgba(0, 0, 0, 0.5) !important;
 	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
+}
+
+@media only screen
+and (min-width: 1000px)
+{
+	#content, #footer {
+		width: 1056px;
+	}
+
+	#tabsandcontent {
+		width: 998px;
+	}
 }

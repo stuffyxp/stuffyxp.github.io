@@ -2,7 +2,7 @@ var intervalId;
 
     function displayUserAgent() {
         var userAgentString = navigator.userAgent;
-        var htmlContent = '<i class="fas fa-user-gear"></i>&nbsp;&nbsp;\Stuffy\'s Website v1.0.1579.wbmain.20240623-1650, Bulma 1.0.0 & Jekyll 4.3.3, &nbsp;' + userAgentString;
+        var htmlContent = '<i class="fas fa-circle-info"></i>&nbsp;\Stuffy\'s Website "Week One Update" v1.1.1668.wbmain.20240624-1926, Bulma 1.0.0 & Jekyll 4.3.3&nbsp;&nbsp;<i class="fas fa-user-gear"></i>&nbsp;' + userAgentString;
         document.getElementById('userAgent').innerHTML = htmlContent;
     }
 
@@ -14,6 +14,8 @@ var intervalId;
         }
     }
 
+
+
     function handleShiftKeyRelease(event) {
         if (event.keyCode === 16) {
             clearInterval(intervalId);
@@ -24,3 +26,4 @@ var intervalId;
 
     document.addEventListener('keydown', handleShiftKeyPress);
     document.addEventListener('keyup', handleShiftKeyRelease);
+

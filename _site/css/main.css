@@ -26,8 +26,6 @@ html {
 
 #footer {
 	text-align: center;
-	width: 1116px;
-	height: 139px;
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -37,13 +35,12 @@ html {
 
 #tabsandcontent {
 	text-align: left;
-	width: 1116px;
-	height: auto;
 	position: relative;
 	display: block;
 	margin: 0 auto;
 	background-color: rgba(000, 000, 000, 0.1);
 	color: white;
+	max-width: inherit;
 }
 
 #title {
@@ -54,12 +51,11 @@ html {
 	color: solid white;
 	background-color: rgba(000, 000, 000, 0.05) !important;
 	border: 0px rgba(000, 000, 000, 0) !important;
+	margin: 0 auto;
 }
 
 #blog-post {
 	text-align: left;
-	width: 1078px;
-	height: auto;
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -115,4 +111,15 @@ p a {
 button {
 	background-color: rgba(255, 255, 255, 0) !important;
 	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
+}
+
+@media only screen
+and (min-width: 1000px)
+{
+	#tabsandcontent, #footer {
+		width: 1116px;
+	}
+	#blog-post {
+		width: 1078px;
+	}
 }
