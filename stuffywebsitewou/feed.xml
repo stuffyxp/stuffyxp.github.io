@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-28T01:18:19+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Stuffy</title><subtitle>Stuffy&apos;s official website + blog!</subtitle><entry><title type="html">Welcome!</title><link href="http://localhost:4000/2024/06/23/welcome-to-the-stuffy-website.html" rel="alternate" type="text/html" title="Welcome!" /><published>2024-06-23T00:00:00+03:00</published><updated>2024-06-23T00:00:00+03:00</updated><id>http://localhost:4000/2024/06/23/welcome-to-the-stuffy-website</id><content type="html" xml:base="http://localhost:4000/2024/06/23/welcome-to-the-stuffy-website.html"><![CDATA[<h1 id="welcome">Welcome!</h1>
+
+<p>Welcome to the official Stuffy Blog and Website! here you will see everything about me, my projects, socials and of course, the blog posts!</p>
+
+<p>ok idk what more to put here hello, expect more very soon! (retro portal coming oooo).</p>
+
+<p>also if you’re wondering why the development of the website was so quick is because i used a lot of knowledge i gained from the previous version xD.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Welcome!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/post-img/noimage.png" /><media:content medium="image" url="http://localhost:4000/post-img/noimage.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test</title><link href="http://localhost:4000/2024/06/16/test.html" rel="alternate" type="text/html" title="test" /><published>2024-06-16T00:00:00+03:00</published><updated>2024-06-16T00:00:00+03:00</updated><id>http://localhost:4000/2024/06/16/test</id><content type="html" xml:base="http://localhost:4000/2024/06/16/test.html"><![CDATA[<p>hello world this is stuffy with a test thing blog pls dont break thank youuuuu</p>
+
+<h1 id="-header">&lt;– header</h1>
+<h2 id="-smaller-header">&lt;– smaller header</h2>
+<h3 id="-just-bold-xd">&lt;– just bold xd</h3>
+
+<p>🅰️</p>
+
+<p>some cool firefox pic</p>
+
+<p><img src="/post-img/2024-06-16/image.png" alt="firefox fox" style="max-width: 100%; height: auto;" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[hello world this is stuffy with a test thing blog pls dont break thank youuuuu]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/post-img/2024-06-16/image.png" /><media:content medium="image" url="http://localhost:4000/post-img/2024-06-16/image.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

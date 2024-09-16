@@ -5,96 +5,43 @@
 }
 
 html {
-	background-image: url('../img/Evening Mountain1.jpg');
+	background-image: url('../img/Crystal.jpg');
 	background-attachment: fixed;
 	background-size: cover;
-}
-
-#background {
-	filter: blur(8px);
-	-webkit-filter: blur(8px);
-}
-
-#logo {
-	position: relative;
-	display: block;
-  	height: auto;
-	width: 320;
-	margin: 0 auto;
-	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
-}
-
-#footer {
-	text-align: center;
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	background-color: rgba(000, 000, 000, 0.1);
-	color: white;
-}
-
-#tabsandcontent {
-	text-align: center;
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	background-color: rgba(000, 000, 000, 0.1);
-	color: white;
-}
-
-#title {
-	text-align: center;
-}
-
-.title {
-	text-align: center !important;
-}
-
-#content {
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	background-color: rgba(000, 000, 000, 0.1);
-	color: white;
-}
-
-.subtitle {
-   color: white !important; 
-}
-
-.tab-content {
-      display: none;
-}
-.tab-content.is-active {
-      display: block;
-}
-
-#build {
-	color: white !important;
-	text-align: right;
-}
-
-#gobackbutton {
-	position: relative;
-	display: block;
-  	height: auto;
-	width: 103;
-	margin: 0 auto;
-	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
-	background-color: rgba(255, 255, 255, 0) !important;
 }
 
 p a {
 	color: rgba(137, 196, 244, 1) !important;
 }
 
-.postdate {
-	color: rgba(211, 211, 211, 1) !important;
-	font-size: 22px !important;
+pre, code {
+	background-color: rgba(000, 000, 000, 0.23) !important;
+	color: solid white !important;
+ }
+
+span {
+	color: white !important;
+}
+
+#blog-post-list {
+	text-align: left !important;
+	color: solid white !important;
+}
+
+#navbar-links {
+	text-align: center !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 auto !important;
+}
+
+#logo {
+    text-align: center;
+    padding: 0px;
 }
 
 button {
-	background-color: rgba(0, 0, 0, 0.5) !important;
+	background-color: rgba(255, 255, 255, 0) !important;
 	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
 }
 
@@ -102,10 +49,62 @@ button {
 and (min-width: 1000px)
 {
 	#content, #footer {
-		width: 1056px;
+		width: 1116px;
 	}
+	#blog-post {
+		width: 1078px;
+	}
+	#navbar {
+		height: 88px;
+	}
+}
 
-	#tabsandcontent {
-		width: 998px;
-	}
+#navbar {
+	position: relative;
+	display: block;
+	background-color: rgba(000, 000, 000, 0);
+	color: white;
+	color: solid white !important;
+}
+
+#quicklaunch {
+	text-align: right !important;
+	color: solid white !important;
+	width: 950px !important;
+}
+
+#post-t-d {
+	text-align: center !important;
+}
+
+#content {
+	color: solid white !important;
+	text-align: center !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 auto !important;
+	text-align: left !important;
+	font-size: 20px;
+}
+
+p {
+	color:white !important;
+}
+
+.container {
+	color: solid white !important;
+}
+
+.links a {
+    color: white !important;
+    font-size: 25px;
+}
+
+#footer {
+	text-align: center;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(000, 000, 000, 0);
+	color: white;
 }

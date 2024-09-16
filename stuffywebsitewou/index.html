@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Stuffy</title>
+	<link rel="stylesheet" href="../../css/main.css" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+	<link rel="icon" type="image" href="/img/favicon.png">
+</head>
+<body>
+<img id="logo" src="./img/stuffy_wordmark1.png" alt="Stuffy wordmark" title="Stuffy" width="320" height="220" class="is-align-self-center">
+<div class="box" id="tabsandcontent">
+<div class="tabs is-fullwidth is-toggle">
+  <ul>
+    <li class="is-active">
+      <a onclick="openTab(event, 'home')">
+        <span class="icon is-small"><i class="fas fa-home" aria-hidden="true"></i></span>
+        <span class="is-hidden-mobile">&nbsp;Home</span>
+      </a>
+    </li>
+    <li>
+      <a onclick="openTab(event, 'blog')">
+        <span class="icon is-small"><i class="fas fa-pen" aria-hidden="true"></i></span>
+        <span class="is-hidden-mobile">&nbsp;Blog</span>
+      </a>
+    </li>
+    <li>
+      <a onclick="openTab(event, 'socials')">
+        <span class="icon is-small"><i class="fas fa-user-group" aria-hidden="true"></i></span>
+        <span class="is-hidden-mobile">&nbsp;Socials</span>
+      </a>
+    </li>
+    <li>
+      <a onclick="openTab(event, 'projects')">
+        <span class="icon is-small"><i class="fas fa-laptop-code" aria-hidden="true"></i></span>
+        <span class="is-hidden-mobile">&nbsp;Projects</span>
+      </a>
+    </li>
+    <li>
+      <a onclick="openTab(event, 'about')">
+        <span class="icon is-small"><i class="fas fa-question" aria-hidden="true"></i></span>
+        <span class="is-hidden-mobile">&nbsp;About</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<p>‎ </p>
+      <div id="home" class="tab-content is-active">
+        <div id="title">
+<span class="title" id="greeting">Hello there! 👋</span>
+</div>
+<div style="text-align:center;">
+<p>‎ </p>
+<p>Welcome to Stuffy's personal website! The home of Stuffy's socials, projects and blog!</p>
+<p>Feel free to check out this website whenever you'd like, just switch around the tabs above to get started! :D</p>
+</div>
+      </div>
+      <div id="blog" class="tab-content">
+        <div id="title">
+    <span class="title is-centered">📝 Blog Posts</span>
+    </div>
+    <p>‎ </p>
+    <div class="box" id="blog-post">
+        
+    <div class="columns">
+        <div class="column">
+            <figure class="image is-16by9">    
+            <img src="../post-img/noimage.png"></img>
+            </figure>
+        </div>
+        <div class="column is-half">
+    <span class="subtitle">Welcome!</span>
+    <p>23 Jun 2024</p>
+    <p>Welcome! Welcome to the official Stuffy Blog and Website! here you will see everything about me, my projects, socials and of course, the blog...</p>
+    </div>
+    <div class="column is-narrow">
+    <a class="button is-rounded" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="/2024/06/23/welcome-to-the-stuffy-website.html">Read</a>
+    </div>
+    </div>
+    
+    <div class="columns">
+        <div class="column">
+            <figure class="image is-16by9">    
+            <img src="../post-img/2024-06-16/image.png"></img>
+            </figure>
+        </div>
+        <div class="column is-half">
+    <span class="subtitle">test</span>
+    <p>16 Jun 2024</p>
+    <p>hello world this is stuffy with a test thing blog pls dont break thank youuuuu &lt;– header &lt;– smaller header &lt;– just bold xd...</p>
+    </div>
+    <div class="column is-narrow">
+    <a class="button is-rounded" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="/2024/06/16/test.html">Read</a>
+    </div>
+    </div>
+    
+    </div>
+      </div>
+      <div id="socials" class="tab-content">
+        <div id="title">
+<span class="title">👥 Socials</span>
+</div>
+<p>‎ </p>
+<p>
+Where to find me!
+</p>
+<p>‎ </p>
+<div class="columns">
+    <div class="column">
+     <div class="box" id="card">
+        <nav class="level">
+          <div class="level-left">
+            <div class="pl-4 pr-4">
+              <figure class="image is-48x48"><img src="../img/discord.svg"></figure>
+            </div>
+            <div class="level-item">
+              <div>
+                <span class="title">Discord</span>
+                <p class="heading">Stuffy's Place</p>
+              </div>
+            </div>
+            </nav>
+           The official Stuffy Discord server! If you'd like to join, go ahead!
+<p>‎ </p>
+		<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="../go/discord"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Join server</a>
+     </div>
+      </div>
+    <div class="column">
+     <div class="box" id="card">
+        <nav class="level">
+          <div class="level-left">
+            <div class="pl-4 pr-4">
+              <figure class="image is-48x48"><img src="../img/mastodon.svg"></figure>
+            </div>
+            <div class="level-item">
+              <div>
+                <p class="title">Mastodon</p>
+                <p class="heading">@stuffyxp@wetdry.world</p>
+              </div>
+            </div>
+            </nav>
+           The (second) place i'm most active on, whether you like it or not.
+<p>‎ </p>
+<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="https://wetdry.world/@stuffyxp"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Visit profile</a>
+     </div>
+      </div>
+    <div class="column">
+     <div class="box" id="card">
+        <nav class="level">
+          <div class="level-left">
+            <div class="pl-4 pr-4">
+              <figure class="image is-48x48"><img src="../img/reddit.svg"></figure>
+            </div>
+            <div class="level-item">
+              <div>
+                <p class="title">Reddit</p>
+                <p class="heading">r/StuffyXP & u/StuffyXP</p>
+              </div>
+            </div>
+            </nav>
+           Reddit... yeah idk what to put here, there is a cool subreddit ig...
+<p>‎ </p>
+<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="https://reddit.com/r/StuffyXP"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Visit subreddit</a>
+<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="https://reddit.com/u/StuffyXP"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Visit profile</a>
+     </div>
+      </div>
+</div>
+<div class="columns">
+    <div class="column">
+     <div class="box" id="card">
+        <nav class="level">
+          <div class="level-left">
+            <div class="pl-4 pr-4">
+              <figure class="image is-48x48"><img src="../img/email.svg"></figure>
+            </div>
+            <div class="level-item">
+              <div>
+                <span class="title">Email</span>
+                <p class="heading">stuffyxp@gmail.com</p>
+              </div>
+            </div>
+            </nav>
+           The official Stuffy email address, if ya want to send me a letter or something, here you go!
+<p>‎ </p>
+		<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="mailto:stuffyxp@gmail.com"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Send me something!</a>
+     </div>
+      </div>
+    <div class="column">
+     <div class="box" id="card">
+        <nav class="level">
+          <div class="level-left">
+            <div class="pl-4 pr-4">
+              <figure class="image is-48x48"><img src="../img/twitter.svg"></figure>
+            </div>
+            <div class="level-item">
+              <div>
+                <p class="title">Twitter</p>
+                <p class="heading">@StuffyXP</p>
+              </div>
+            </div>
+            </nav>
+           Not so active, but listed here because why not?. :)
+<p>‎ </p>
+<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="https://x.com/StuffyXP"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Visit profile</a>
+     </div>
+      </div>
+    <div class="column">
+     <div class="box" id="card">
+        <nav class="level">
+          <div class="level-left">
+            <div class="pl-4 pr-4">
+              <figure class="image is-48x48"><img src="../img/instagram.svg"></figure>
+            </div>
+            <div class="level-item">
+              <div>
+                <p class="title">Instagram</p>
+                <p class="heading">@thestuffyxp</p>
+              </div>
+            </div>
+            </nav>
+           nope, not active, listed as same reason as twitter.
+<p>‎ </p>
+<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="https://instagram.com/@thestuffyxp"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Visit profile</a>
+     </div>
+      </div>
+</div>
+<p>‎ </p>
+      </div>
+      <div id="projects" class="tab-content">
+        <div id="title">
+<span class="title">💻 Projects</span>
+</div>
+<p>‎ </p>
+<p>Some projects of mine, both old, new and recent! (more coming soon)</p>
+<div class="columns">
+    <div class="column">
+     <div class="box" id="card">
+        <nav class="level">
+          <div class="level-left">
+            <div class="pl-4 pr-4">
+              <figure class="image is-50x50"><img src="../img/yt.svg"></figure>
+            </div>
+            <div class="level-item">
+              <div>
+                <span class="title">YouTube</span>
+                <p class="heading">Stuffy & Co.</p>
+              </div>
+            </div>
+            </nav>
+           This covers the Stuffy YouTube Channels, including the archive one, Stuff Life!
+<p>‎ </p>
+		<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="https://youtube.com/@stuffyxp"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Stuffy on YouTube</a>
+<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="https://youtube.com/@stuffyplus"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Stuffy +</a>
+<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="https://youtube.com/@stuffyvlogs2012"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Stuffy Vlogs</a>
+<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="https://youtube.com/@stuffy64_"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Stuffy 64</a>
+<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="https://youtube.com/@stufflife"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; Stuff Life</a>
+     </div>
+      </div>
+    <div class="column">
+     <div class="box" id="card">
+        <nav class="level">
+          <div class="level-left">
+            <div class="pl-4 pr-4">
+              <figure class="image is-64x64"><img src="../img/a.png"></figure>
+            </div>
+            <div class="level-item">
+              <div>
+                <p class="title">Website</p>
+                <p class="heading">stuffyxp.github.io</p>
+              </div>
+            </div>
+            </nav>
+           The website you're visting right now + the Stuffy Blog!
+<p>‎ </p>
+<a class="button is-rounded is-small" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="https://github.com/stuffyxp/stuffyxp.github.io"><i class="fas fa-arrow-up-right-from-square"></i>&nbsp; View website source code</a>
+     </div>
+      </div>
+</div>
+<p>‎ </p>
+      </div>
+      <div id="about" class="tab-content">
+        <div id="title">
+    <span class="title">❔ About</span>
+    </div>
+    <p>‎ </p>
+        <p>Well hello there! I'm Stuffy (sometimes known as StuffyXP), a Honduran with internet access doing things on the internet, jokes aside i like to explore things that caught my attention to the point of breaking them, which is one of the things i'm famous of.</p>
+	<p>‎ </p>
+	<p>My tech journey started on 2015, the first computer i ever used was actually my dad's, a Pentium 4 machine, who (back in the day) was acceptable enough to do basic tasks, it also ran the iconic Microsoft Windows XP, and Microsoft Office 2007 Enterprise.
+	<p>Probably the most influential year of my life was 2017, as two big things happened, one, i got a PC that was fully mine, it came with Windows 7, which i still love to this day (along with XP), a few months later, i created my very first YouTube channel, making and experimenting PowerPoint 2010 pressentions, exporting them to  a .mp4 file, and then uploading then to YT, the channel along with its email addresss are now deleted, i didn't touch YT for almost 4 years after that.</p>
+	<p>‎ </p>
+	<p>The YT channel that you know today as "Stuffy" begined back in March 13th, 2020, at the time i regained the interest and motivation to continue my journey that went as back as 2017, being known as "Yoshi Land0842" (don't ask why the name,i thought it was cool at the time), i remember a now deleted MarioKart DS gameplay shown in another laptop, it was my dad's but i used it most of the time, then on May 10th, 2021, by casualy getting my first subscriber a few days earlier, my first video was uploaded, as the second one that same day (lol).</p>
+	<p>Around that time i was known as "Stuff Life", due to that i was doing plushie content (yes, i'm serious, i was a child at the time so it was valid ig), i uploaded a total of 63 videos (including Shorts which i actually saw it's peak and then got 1K views thanks to it), i decided to leave that identity on October 4th, 2023, on that day i rebranded to as you know me today, Stuffy (my handle was actually something else that wasn't @StuffyXP), and on Febuary 14th (or 13th, timezones), 2024, i uploaded my comeback since November 2023, and here we are today!</p>
+	<p>‎ </p>
+	<p>This website should serve a my gateway to the internet, introducing myself to milllons of people around the world, i also run my blog, where i will post updates & other misc stuff, the time that i make stuff depends on my motivation, energy and time to do so (which does not only apply to the blog FYI).</p>
+	<p>‎ </p>
+	<p>Now a little bit about myself, as said before, i'm from the Central America country of Honduras, and because of that my timezone is GMT -6 Central America, my pronouns are he/they and i break things the ways that you (probably) have not seen before!</p>
+	</p>
+<p>‎ </p>
+<div id="title">
+    <span class="title">💻 Specs & Software</span>
+    </div>
+<p>‎ </p>
+<p>The PC i use at the moment of me writing this is a <b>eMachines ET1810 Revision 1</b> from 2009!</p>
+<p>‎ </p>
+<div class="content">
+<p>
+<ul>
+    <li>
+	<b>CPU</b>: Intel Celeron 420 (Conroe, 6th Gen) clocked at 1.6 GHz
+   </li>
+</ul>
+<ul>
+    <li>
+	<b>GPU</b>: NVIDIA GeForce 7050 / nForce 620i
+   </li>
+</ul>
+<ul>
+    <li>
+	<b>Storage</b>: 150 GB HDD (74 GB for Windows, 56 GB for Data, 14 GB for Xubuntu)
+   </li>
+</ul>
+<ul>
+    <li>
+	<b>OSes</b>: Microsoft Windows Vista & Xubuntu 24.04 LTS
+   </li>
+</ul>
+<ul>
+    <li>
+	<b>Software used for videos</b>: Camtasia Studio - Video Editing, Camtasia Recorder - Recording, Adobe Photoshop CS6 - Photo Editing, VMware Workstation Pro & Player 12 - Virtualization
+   </li>
+</ul>
+</p>
+</div>
+<p>
+<b>Other devices</b>: Dell Optiplex <i>insert model here since i don't remember it</i> (main PC from 2017 to 2023), Xiaomi Redmi 9A (main phone since 2023), Samsung Galaxy J5 (main phone from 2018 to 2023).
+</p>
+</div>
+    <p>‎ </p>
+      </div>
+        
+
+
+</div>
+<div class="box" id="footer">
+<p>© 2024 Stuffy. All Rights Reserved.</p>
+<p>The <a href="https://github.com/stuffyxp/stuffyxp.github.io">source code</a> of this website is licensed under MIT. Powered by <a href="https://bulma.io">Bulma</a> and <a href="https://jekyllrb.com">Jekyll</a>. Hosted on <a href="https://pages.github.com">GitHub Pages</a>.</p>
+<p>‎ </p>
+<p>Big shoutout to <a href="https://lynxmic.github.io">Lynxmic</a> for helping me out with the code and other things. Thanks! <3</p>
+</div>
+<div class="content">
+<p>
+<p>‎ </p>
+<p>‎ </p>
+<p>‎ </p>
+<p>‎ </p>
+<div id="build">
+<div id="info">
+      <p id="userAgent"></p>
+</div>
+</div>
+</p>
+</div>
+<script type="text/javascript" src="../js/tabs.js"></script>
+<script type="text/javascript" src="../js/build.js"></script>
+<script type="text/javascript" src="../js/holiday.js"></script>
+</body>
+</html>

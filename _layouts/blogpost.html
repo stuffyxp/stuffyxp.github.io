@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }} ~ StuffyXP Blog</title>
+        <link rel="stylesheet" href="/css/post.css" type="text/css">
+        <link rel="stylesheet" href="/css/bulma.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="stuffyxp.github.io">
+        <meta property="og:title" content="StuffyXP">
+        <meta property="og:image" content="https://stuffyxp.github.io/img/favicon.png">
+        <meta property="og:description" content="StuffyXP's official website + blog!">
+        <link rel="icon" type="image" href="{{ site.baseurl }}/img/favicon.png">
+        <div class="box" id="navbar">
+            <div class="level">
+                <div class="control">
+            <img id="logo" src="/img/stuffyxpblog_wordmark.png" alt="StuffyXP Wordmark" title="StuffyXP" height="69px" width="275px">
+            </div>
+            <div class="control">
+                <div class="container links" id="navbar-links">
+                    <a href="{{ site.url }}/blog">Go Back...</a>
+                </div>
+            </div>
+    </div>
+    </div>
+    </head>
+    <body>
+        <div class="content" id="content">
+            <p>&nbsp;</p>
+            <div class="container" id="post-t-d">
+            <h4 class="is-centered">{{ page.title }}</h4>
+            <p class="postdate">{{ page.date | date_to_string }}</p>
+            </div>
+            <p>&nbsp;</p>
+            {{content}}
+            <p>&nbsp;</p>
+        </div>
+
+        <div class="container" id="footer">
+            <p>© 2024 StuffyXP.             The <a href="/go/sourcecode/">source code</a> of this website is licensed under MIT. Powered by <a href="https://bulma.io">Bulma</a> and <a href="https://jekyllrb.com">Jekyll</a>. Hosted on <a href="https://pages.github.com">GitHub Pages</a>.</p>
+            <p>Big shoutout to <a href="https://clyron.is-a.dev">Clyron</a> for helping me out with the code and basically fixing the mobile version, thanks, you're a legend! :D</p>
+            <p><a href="/stuffywebsitewou/"><i>Legacy Website (Stuffy's Website v1.1/WOU)</i></a></p>
+        </div>
+    </body>
+</html>
+

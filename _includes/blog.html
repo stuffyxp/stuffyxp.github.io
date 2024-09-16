@@ -1,23 +1,24 @@
-<div id="title">
-    <span class="title is-centered">📝 Blog Posts</span>
+<div class="container" id="centered">
+<h2>Blog</h2>
+<h6>My own blog, this where i post about random experiences or other misc stuff.</h6>
+</div>
+<p>&nbsp;</p>
+<div class="container" id="blog-post">
+    {% for post in site.posts %}
+<div class="columns" id="list">
+    <div class="column">
+        <figure class="image is-16by9">    
+        <img src="{{ post.image }}" width="353" height="205"></img>
+        </figure>
     </div>
-    <p>‎ </p>
-    <div class="box" id="blog-post">
-        {% for post in site.posts %}
-    <div class="columns">
-        <div class="column">
-            <figure class="image is-16by9">    
-            <img src="{{ post.image }}"></img>
-            </figure>
-        </div>
-        <div class="column is-half">
-    <span class="subtitle">{{ post.title }}</span>
-    <p>{{ post.date | date_to_string }}</p>
-    <p>{{ post.content | strip_html | truncatewords: 24 }}</p>
-    </div>
-    <div class="column is-narrow">
-    <a class="button is-rounded" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);" href="{{ post.url }}">Read</a>
-    </div>
-    </div>
-    {% endfor %}
-    </div>
+    <div class="column is-half">
+<h3>{{ post.title }}</h3>
+<p>{{ post.date | date_to_string }}</p>
+<p>{{ post.content | strip_html | truncatewords: 27 }}</p>
+</div>
+<div class="column is-narrow">
+<a class="button" style="background-color: rgba(000, 000, 000, 0.1); border: 2px rgb(001, 001, 001);" href="{{ post.url }}">Read</a>
+</div>
+</div>
+{% endfor %}
+</div>
