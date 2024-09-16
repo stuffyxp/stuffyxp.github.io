@@ -1,0 +1,111 @@
+@import url('https://fonts.cdnfonts.com/css/leelawadee');
+
+* {
+	font-family: 'Leelawadee', 'Noto Sans';
+}
+
+html {
+	background-image: url('../img/Evening Mountain1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#background {
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+}
+
+#logo {
+	position: relative;
+	display: block;
+  	height: auto;
+	width: 320;
+	margin: 0 auto;
+	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
+}
+
+#footer {
+	text-align: center;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(000, 000, 000, 0.1);
+	color: white;
+}
+
+#tabsandcontent {
+	text-align: center;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(000, 000, 000, 0.1);
+	color: white;
+}
+
+#title {
+	text-align: center;
+}
+
+.title {
+	text-align: center !important;
+}
+
+#content {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(000, 000, 000, 0.1);
+	color: white;
+}
+
+.subtitle {
+   color: white !important; 
+}
+
+.tab-content {
+      display: none;
+}
+.tab-content.is-active {
+      display: block;
+}
+
+#build {
+	color: white !important;
+	text-align: right;
+}
+
+#gobackbutton {
+	position: relative;
+	display: block;
+  	height: auto;
+	width: 103;
+	margin: 0 auto;
+	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
+	background-color: rgba(255, 255, 255, 0) !important;
+}
+
+p a {
+	color: rgba(137, 196, 244, 1) !important;
+}
+
+.postdate {
+	color: rgba(211, 211, 211, 1) !important;
+	font-size: 22px !important;
+}
+
+button {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
+}
+
+@media only screen
+and (min-width: 1000px)
+{
+	#content, #footer {
+		width: 1056px;
+	}
+
+	#tabsandcontent {
+		width: 998px;
+	}
+}

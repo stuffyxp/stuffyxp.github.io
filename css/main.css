@@ -5,107 +5,56 @@
 }
 
 html {
-	background-image: url('../img/Foggy Evening1.jpg');
+	background-image: url('../img/Red moon desert.jpg');
 	background-attachment: fixed;
 	background-size: cover;
-}
-
-#background {
-	filter: blur(8px);
-	-webkit-filter: blur(8px);
-}
-
-#logo {
-	position: relative;
-	display: block;
-  	height: auto;
-	width: 320;
-	margin: 0 auto;
-	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
-}
-
-#footer {
-	text-align: center;
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	background-color: rgba(000, 000, 000, 0.1);
-	color: white;
-}
-
-#tabsandcontent {
-	text-align: left;
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	background-color: rgba(000, 000, 000, 0.1);
-	color: white;
-	max-width: inherit;
-}
-
-#title {
-	text-align: center;
-}
-
-.tabs a {
-	color: solid white;
-	background-color: rgba(000, 000, 000, 0.05) !important;
-	border: 0px rgba(000, 000, 000, 0) !important;
-	margin: 0 auto;
-}
-
-#blog-post {
-	text-align: left;
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	background-color: rgba(000, 000, 000, 0.1);
-	color: white;
-}
-
-#build {
-	color: white !important;
-	text-align: right;
-}
-
-#card {
-    background-color: rgba(000, 000, 000, 0.1);
-    color: white;
-}
-
-.button {
-    background-color: rgba(000, 000, 000, 0.1);
-    color: white;
-    margin: 0;
-	padding: 0;
-}
-
-button {
-    background-color: rgba(000, 000, 000, 0.1);
-    color: white;
-    margin: 0;
-	padding: 0;
-}
-
-.subtitle {
-        color: white !important;
-	font-size: 30px !important;
-}
-
-.tab-content {
-      display: none;
-}
-.tab-content.is-active {
-      display: block;
 }
 
 p a {
 	color: rgba(137, 196, 244, 1) !important;
 }
 
-#tabs {
+span, ul ,li {
 	color: white !important;
-	background-color: rgba(137, 196, 244, 1) !important;
+}
+
+#project-boxes {
+	width: auto !important;
+	height: auto !important;
+	text-align: left !important;
+}
+
+#blog-post {
+	text-align: left !important;
+	color: solid white !important;
+}
+
+
+#aboutme {
+	text-align: left !important;
+	color: solid white !important;
+}
+
+#build {
+	text-align: right !important;
+	color: solid white;
+}
+
+#list {
+	text-align: left !important;
+	color: solid white !important;
+}
+
+#navbar-links {
+	text-align: center !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 auto !important;
+}
+
+#logo {
+    text-align: center;
+    padding: 0px;
 }
 
 button {
@@ -116,10 +65,74 @@ button {
 @media only screen
 and (min-width: 1000px)
 {
-	#tabsandcontent, #footer {
+	#content, #footer {
 		width: 1116px;
 	}
 	#blog-post {
 		width: 1078px;
 	}
+	#navbar {
+		height: 88px;
+	}
+}
+
+#navbar {
+	position: relative;
+	display: block;
+	background-color: rgba(000, 000, 000, 0);
+	color: white;
+	color: solid white !important;
+}
+
+#social-boxes {
+	text-align: left !important;
+	color: solid white !important;
+}
+
+#quicklaunch {
+	text-align: right !important;
+	color: solid white !important;
+	width: 950px !important;
+}
+
+#content {
+	color: solid white !important;
+	text-align: center !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 auto !important;
+
+}
+
+p {
+	color:white !important;
+}
+
+.container {
+	color: solid white !important;
+}
+
+.box {
+	background-color: rgba(000, 000, 000, 0.1) !important;
+}
+
+#centered {
+	text-align: center !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 auto !important;
+}
+
+.links a {
+    color: white !important;
+    font-size: 25px;
+}
+
+#footer {
+	text-align: center;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(000, 000, 000, 0);
+	color: white;
 }
