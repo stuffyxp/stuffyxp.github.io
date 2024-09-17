@@ -45,6 +45,7 @@ I tried with my own user's password, it didn't work, i tried the root passowrd, 
 Then, after a restart (since i wanted to do show something funny on Windows, the pic below is what i wanted to show), then i rebooted back into Ubuntu and... i got what i wanted... almost.
 
 ![](/blog/img/2024-09-16/winpic.jpg){: style="max-width: 100%; height: auto;"}
+*Windows 7 Disk Management window letting me assign a letter, shrink and mount the Linux volume, which does not happen with other distros I had around (this did not happen with Xubuntu), prob happened since I first used that volume as FAT32 then used it in the installer so I wouldn't get confused lmao*
 
 For some reason it installed GNOME instead of XFCE, i had a GUI, yay i guess, then everything went straightfoward, i opened the terminal, ran `sudo apt install xfce4` and done, XFCE was installed, i just needed to make it the defualt session.
 
