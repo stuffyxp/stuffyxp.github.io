@@ -15,7 +15,7 @@ My Linux distro of choice is Ubuntu Server, 22.04 Jammy Jellyfish (i can't run 2
 
 I used Unetbootin to add the Linux image to the Windows Boot Manager, booted it up and worked like a charm, i even managed to not clean my disk by accident since GParted was not present! :D
 
-All of that aside, something went wrong, no it didn't error out when installing, it just didn't recognize my network """"""card"""""", basically it was a network USB, a "Belkin Wireless G USB Network Adapter F5D7050" to be exact, it did detect my Ethernet cards (yes, *cards*, idk why does the eMachines ET1810 have two), i didn't really think about it and just did the installation as usual, and no, this does not look like the Debian instaler, it looks more nicand friendly in my opinion, anyways everything went well and i was network-less, and oh boy i wouldn't know how of much a problem that would be...
+All of that aside, something went wrong, no it didn't error out when installing, it just didn't recognize my network """"""card"""""", basically it was a network USB, a "Belkin Wireless G USB Network Adapter F5D7050" to be exact, it did detect my Ethernet cards (yes, *cards*, idk why does the eMachines ET1810 have two Ethernet cards), i didn't really think about it and just did the installation as usual, and no, this does not look like the Debian installer , it looks more nice and friendly in my opinion, anyways everything went well and i was network-less, and oh boy i wouldn't know how of much a problem that would be...
 
 ## The problems
 
