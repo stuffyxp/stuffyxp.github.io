@@ -1,0 +1,142 @@
+@import url('https://fonts.cdnfonts.com/css/leelawadee');
+
+* {
+	font-family: 'Leelawadee', 'Noto Sans';
+}
+
+html {
+	background-image: url('/img/Vortec Space.png');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#error-message {
+	white-space: pre-line;
+}
+
+p a {
+	color: rgba(137, 196, 244, 1) !important;
+}
+
+span, ul ,li {
+	color: white !important;
+}
+
+#project-boxes {
+	width: auto !important;
+	height: auto !important;
+	text-align: left !important;
+}
+
+#blog-post {
+	text-align: left !important;
+	color: solid white !important;
+}
+
+
+#aboutme {
+	text-align: left !important;
+	color: solid white !important;
+}
+
+#build {
+	text-align: right !important;
+	color: solid white;
+}
+
+#list {
+	text-align: left !important;
+	color: solid white !important;
+}
+
+#navbar-links {
+	text-align: center !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 auto !important;
+}
+
+#logo {
+    text-align: center;
+    padding: 0px;
+}
+
+button {
+	background-color: rgba(255, 255, 255, 0) !important;
+	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
+}
+
+@media only screen
+and (min-width: 1000px)
+{
+	#content, #footer {
+		width: 1116px;
+	}
+	#blog-post {
+		width: 1078px;
+	}
+	#navbar {
+		height: 88px;
+	}
+}
+
+#navbar {
+	position: relative;
+	display: block;
+	background-color: rgba(000, 000, 000, 0);
+	color: white;
+	color: solid white !important;
+}
+
+#social-boxes {
+	text-align: left !important;
+	color: solid white !important;
+}
+
+#quicklaunch {
+	text-align: right !important;
+	color: solid white !important;
+	width: 950px !important;
+}
+
+#content {
+	color: solid white !important;
+	text-align: center !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 auto !important;
+
+}
+
+p {
+	color:white !important;
+}
+
+.container {
+	color: solid white !important;
+}
+
+.box {
+	background-color: rgba(000, 000, 000, 0.1) !important;
+}
+
+#centered {
+	text-align: center !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 auto !important;
+}
+
+.links a {
+    color: white !important;
+    font-size: 25px;
+}
+
+#footer {
+	text-align: center;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(000, 000, 000, 0);
+	color: white;
+}

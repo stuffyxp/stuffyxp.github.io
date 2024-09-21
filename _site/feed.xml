@@ -1,17 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-28T01:18:19+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Stuffy</title><subtitle>Stuffy&apos;s official website + blog!</subtitle><entry><title type="html">Welcome!</title><link href="http://localhost:4000/2024/06/23/welcome-to-the-stuffy-website.html" rel="alternate" type="text/html" title="Welcome!" /><published>2024-06-23T00:00:00+03:00</published><updated>2024-06-23T00:00:00+03:00</updated><id>http://localhost:4000/2024/06/23/welcome-to-the-stuffy-website</id><content type="html" xml:base="http://localhost:4000/2024/06/23/welcome-to-the-stuffy-website.html"><![CDATA[<h1 id="welcome">Welcome!</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-21T02:37:51+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>The official website of the tech YouTuber StuffyXP!</subtitle><entry><title type="html">The Ubuntu Server experience.</title><link href="http://localhost:4000/blog/2024/09/16/the-ubuntu-server-setup-experience.html" rel="alternate" type="text/html" title="The Ubuntu Server experience." /><published>2024-09-16T00:00:00+00:00</published><updated>2024-09-16T00:00:00+00:00</updated><id>http://localhost:4000/blog/2024/09/16/the-ubuntu-server-setup-experience</id><content type="html" xml:base="http://localhost:4000/blog/2024/09/16/the-ubuntu-server-setup-experience.html"><![CDATA[<p>Well i have gotten again into what is the Linux world, and oh well it was kind of a hassle, today i’ll be telling you my experience with the GNOME-less/GUI-less Ubuntu, known as Ubuntu Server.</p>
 
-<p>Welcome to the official Stuffy Blog and Website! here you will see everything about me, my projects, socials and of course, the blog posts!</p>
+<h2 id="the-prologue">The Prologue</h2>
 
-<p>ok idk what more to put here hello, expect more very soon! (retro portal coming oooo).</p>
+<p>You may ask why did i even did this, well basically after running out of space on my Xubuntu install (for the 2nd time), i decided to try something different, as uh, the Xubuntu Minimal install is particularly broken, i couldn’t even manage my own account!</p>
 
-<p>also if you’re wondering why the development of the website was so quick is because i used a lot of knowledge i gained from the previous version xD.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Welcome!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/post-img/noimage.png" /><media:content medium="image" url="http://localhost:4000/post-img/noimage.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test</title><link href="http://localhost:4000/2024/06/16/test.html" rel="alternate" type="text/html" title="test" /><published>2024-06-16T00:00:00+03:00</published><updated>2024-06-16T00:00:00+03:00</updated><id>http://localhost:4000/2024/06/16/test</id><content type="html" xml:base="http://localhost:4000/2024/06/16/test.html"><![CDATA[<p>hello world this is stuffy with a test thing blog pls dont break thank youuuuu</p>
+<p>My Linux distro of choice is Ubuntu Server, 22.04 Jammy Jellyfish (i can’t run 24.04 my system is not compatible okay), as Canonical said on their downloads website, and i quote: “It will not install a graphical user interface.”, interesting, huh, i thought to myself, as we’re Debian all of a sudden again! - jokes aside i was kinda curious about this, as i won’t have to deal with GNOME anymore, and just install my favorite Linux DE: XFCE!</p>
 
-<h1 id="-header">&lt;– header</h1>
-<h2 id="-smaller-header">&lt;– smaller header</h2>
-<h3 id="-just-bold-xd">&lt;– just bold xd</h3>
+<p>I used Unetbootin to add the Linux image to the Windows Boot Manager, booted it up and worked like a charm, i even managed to not clean my disk by accident since GParted was not present! :D</p>
 
-<p>🅰️</p>
+<p>All of that aside, something went wrong, no it didnt error out when installing, it just didn’t recognize my network “”””"”card””””””, basically it was a network USB, a “Belkin Wireless G USB Network Adapter F5D7050” to be exact, it did detect my Ethernet cards (yes, <em>cards</em>, idk why does the eMachines ET1810 have two), i didn’t really think about it and just did the installation as usual, and no, this does not look like as the Debian instaler, it looks more prettier in my opinion, anyways everything went well and i was network-less, which oh boy i wouldn’t know how of a problem that would be…</p>
 
-<p>some cool firefox pic</p>
+<h2 id="the-problems">The problems</h2>
 
-<p><img src="/post-img/2024-06-16/image.png" alt="firefox fox" style="max-width: 100%; height: auto;" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[hello world this is stuffy with a test thing blog pls dont break thank youuuuu]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/post-img/2024-06-16/image.png" /><media:content medium="image" url="http://localhost:4000/post-img/2024-06-16/image.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Everybody encounters issues when trying new things, i’m no exception! (as always haha).</p>
+
+<p>As said earlier, networking was one of those problems, i tried everything to make it work, searched up a tutorial on YT, and it actually worked, i was just kind of an idiot when doing so, it worked like a charm tho, if not this website wouldn’t exist, anyway here’s some highlights of the shenanigans i went through.</p>
+
+<h3 id="ubuntu-cli-and-wi-fi">Ubuntu CLI and Wi-Fi</h3>
+
+<p>First of all, i installed some packages from <a href="https://packages.ubuntu.com">the official Ubuntu packages website</a>, and unlike Microsoft, they actually had packages for older, unsupported releases! I went ahead and downloaded the WPA supplicant and some other dependencies, installed it and… no change, then i saw that you need to edit some .yml file located in “<code class="language-plaintext highlighter-rouge">/etc/defualt/netplan</code>”, i opened it with GNU nano, and just added my device, configured it, added the SSID and password and used DHCP4, and it didn’t work… :/</p>
+
+<p>It turned out that i edited the wrong file, i did it all again, and when i restarted it didn’t save for some reason, did it again and again for like 5 minutes, then in like the 16th time, i saw the verbose startup and …boom.. I saw “<code class="language-plaintext highlighter-rouge">197.168.0.24</code>” as the IP address and finally, i had been connected, i don’t know what i did but Ubuntu finally decided to accept the settings! i pinged www.google.com (as every PC user would do, i think) and i recieved 64 bytes as a reply!</p>
+
+<p>With networking out of the way, i had another problem…</p>
+
+<h3 id="the-xfcexorgx11-shenanigans">The XFCE/Xorg/X11 shenanigans</h3>
+
+<p>The network configuration was done. Perfect. Now what?</p>
+
+<p>Well i certainly not gonna use a command-line-interface for Linux the entire time so i went ahead and with my newly configured network, to install an X11 server!
+I used <code class="language-plaintext highlighter-rouge">apt install (some command here i don't remember what installed x11 lmao)</code> to get up and running X11, execpt it didnt really work… then i decided to get <code class="language-plaintext highlighter-rouge">xubuntu-desktop</code> and it didnt work either, it opened but crashed on startup.</p>
+
+<p>I saw a tutorial on how to get XFCE 4.16, ran the ansible-playbook (since it required it), but before that i got some files from that person’s website (the tutorial said so so don’t worry), i opened but required my SSH password… yeah i didn’t know how to get that…</p>
+
+<p>I tried with my own user’s password, it didn’t work, i tried the root passowrd, it didn’t work either, at this point i didn’t know what else i could try so i just gave up, and no i didn’t delete the partition dw.</p>
+
+<p>Then, after a restart (since i wanted to do show something funny on Windows, the pic below is what i wanted to show), then i rebooted back into Ubuntu and… i got what i wanted… almost.</p>
+
+<p><img src="/blog/img/2024-09-16/winpic.jpg" alt="" style="max-width: 100%; height: auto;" /></p>
+
+<p>For some reason it installed GNOME instead of XFCE, i had a GUI, yay i guess, then everything went straightfoward, i opened the terminal, ran <code class="language-plaintext highlighter-rouge">sudo apt install xfce4</code> and done, XFCE was installed, i just needed to make it the defualt session.</p>
+
+<p>It took me a while on how to login into XFCE but then i just did and done! XFCE 4.16 was installed and worked like a charm!
+Then i went on to customize the panels a bit, making the bottom one (where the launchers are located) to make a sort of a “macOS Dock”, and the top one where for everything else, workspaces, time &amp; date, user thingy, apps menu, window menu, etc.</p>
+
+<p>Then i grabbed some apps, i got Firefox 130 and VS Code from Snap (ik everybody hates that but that’s the only way to get those apps okay?), grabbed Ruby-Lang from APT, installed Jekyll &amp; Bundler, and installed VMware 12 from <a href="https://softwareupdate.vmware.com/cds/vmw-desktop/ws/12.0.0/2985596/linux/core">here</a> and installed it, it worked, suprisingly!</p>
+
+<p>And well, everything is done, here’s the end result!</p>
+
+<p><img src="/blog/img/2024-09-16/result.jpg" alt="" style="max-width: 100%; height: auto;" /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Well after this rollercoaster of shenanigans, everything worked out, and i learned alot about Linux itself, that’s a win-win situation for me!
+Now with a working development enviroment, expect more of this soon, new experiences, new shenanigans, new blog posts!</p>
+
+<p>Oh, and also welcome to the new website! Have a great day!</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[Well i have gotten again into what is the Linux world, and oh well it was kind of a hassle, today i’ll be telling you my experience with the GNOME-less/GUI-less Ubuntu, known as Ubuntu Server.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/blog/img/2024-09-16/preview.jpg" /><media:content medium="image" url="http://localhost:4000/blog/img/2024-09-16/preview.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
