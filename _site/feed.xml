@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-21T02:46:08+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>The official website of the tech YouTuber StuffyXP!</subtitle><entry><title type="html">The Ubuntu Server experience.</title><link href="http://localhost:4000/blog/2024/09/16/the-ubuntu-server-experience.html" rel="alternate" type="text/html" title="The Ubuntu Server experience." /><published>2024-09-16T00:00:00+00:00</published><updated>2024-09-16T00:00:00+00:00</updated><id>http://localhost:4000/blog/2024/09/16/the-ubuntu-server-experience</id><content type="html" xml:base="http://localhost:4000/blog/2024/09/16/the-ubuntu-server-experience.html"><![CDATA[<p>Well i have gotten again into what is the Linux world, and oh well it was kind of a hassle, today i’ll be telling you my experience with the GNOME-less/GUI-less Ubuntu, known as Ubuntu Server.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-28T21:37:59+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>The official website of the tech YouTuber StuffyXP!</subtitle><entry><title type="html">How to get Camtasia Recorder 8 working on Windows Vista</title><link href="http://localhost:4000/blog/2024/09/28/how-to-get-camrec8-working-on-win-vista.html" rel="alternate" type="text/html" title="How to get Camtasia Recorder 8 working on Windows Vista" /><published>2024-09-28T00:00:00+00:00</published><updated>2024-09-28T00:00:00+00:00</updated><id>http://localhost:4000/blog/2024/09/28/how-to-get-camrec8-working-on-win-vista</id><content type="html" xml:base="http://localhost:4000/blog/2024/09/28/how-to-get-camrec8-working-on-win-vista.html"><![CDATA[<p>(<em>this is just a filler video <a href="https://youtube.com/AzWtlbS2qJM">i uploaded a video today</a>, so why not give you guys some more stuffy content? :)</em>)</p>
+
+<p>Ok so you’ve decided to get into video editng and YouTube video making and all that stuff with your good ol’ Windows Vista machine, great!!
+<img src="/blog/img/2024-09-28/camrec8%201.JPG" alt="" style="max-width: 100; height: auto;" /></p>
+
+<p>You chose Camtasia Studio as your video editor, which has A BUILT-IN RECORDER FOR YOUR SCREEN?!?!?!?
+(ok it’s not that deep but okay)</p>
+
+<p>And when you’re about to film your “”"”tutorial””””, you get greeted by this error…</p>
+
+<p><img src="/blog/img/2024-09-28/camrec8%202.JPG" alt="" style="max-width: 100%; height: auto;" /></p>
+
+<p>Well today i’m gonna walkthrough you on how to fix this annoying error (side note: this only happens on Windows Vista no matter what Service Pack you’re in, and it <em>only</em> happen on Vista, XP, 7 and up do not have this problem…)</p>
+
+<p>On the desktop, press on your keyboard the keys (oh wow the irony lmao) Win + R, this should open up</p>
+
+<p><img src="/blog/img/2024-09-28/camrec8%203.JPG" alt="" style="max-width: 100%; height: auto;" /></p>
+
+<p>As you can see i already have that path written, but be sure to write that in in the run box: <code class="language-plaintext highlighter-rouge">C:\Program Files (x86)\TechSmith\Camtasia Studio 8</code></p>
+
+<p>After that, select the following program, double-click it and click “Properties”</p>
+
+<p><img src="/blog/img/2024-09-28/camrec8%204.JPG" alt="" style="max-width: 100%; height: auto;" /></p>
+
+<p><em>image showing CamRecorder.exe being selected in Windows Explorer (sorry for the badly drawn arrow lmaooo)</em></p>
+
+<p>After that, chose the “Compatibility” tab on the window and click “Show settings for all users” or smething similar (<em>sorry that it’s in Spanish i use(d to use) Spanish Windows…</em>)</p>
+
+<p><img src="/blog/img/2024-09-28/camrec8%205.JPG" alt="" style="max-width: 100%; height: auto;" /></p>
+
+<p>Another window should open up, just tick the “Run this program as an administrator” checkbox, then click OK until you’re back to the Windows Explorer window</p>
+
+<p><img src="/blog/img/2024-09-28/camrec8%206.JPG" alt="" style="max-width: 100%; height: auto;" /></p>
+
+<p>Then launch Camtasia Recorder as usual, and it should open up just fine, congratulations! you just fixed that one server referall error! :D</p>
+
+<p><img src="/blog/img/2024-09-28/camrec8%207.JPG" alt="" style="max-width: 100%; height: auto;" /></p>
+
+<p>Now just continue your recording and video editing as usual!</p>
+
+<p><em>Note: Applying the compatibility settings under Windows XP SP2 may also work, but it’ll lack audio support when recording, so this is better if you are recording something audio focused or anything else related to audio.</em></p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[(this is just a filler video i uploaded a video today, so why not give you guys some more stuffy content? :))]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/blog/img/2024-09-16/camrec8%207.jpg" /><media:content medium="image" url="http://localhost:4000/blog/img/2024-09-16/camrec8%207.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Ubuntu Server experience.</title><link href="http://localhost:4000/blog/2024/09/16/the-ubuntu-server-experience.html" rel="alternate" type="text/html" title="The Ubuntu Server experience." /><published>2024-09-16T00:00:00+00:00</published><updated>2024-09-16T00:00:00+00:00</updated><id>http://localhost:4000/blog/2024/09/16/the-ubuntu-server-experience</id><content type="html" xml:base="http://localhost:4000/blog/2024/09/16/the-ubuntu-server-experience.html"><![CDATA[<p>Well i have gotten again into what is the Linux world, and oh well it was kind of a hassle, today i’ll be telling you my experience with the GNOME-less/GUI-less Ubuntu, known as Ubuntu Server.</p>
 
 <h2 id="the-prologue">The Prologue</h2>
 
