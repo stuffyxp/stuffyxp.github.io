@@ -24,7 +24,7 @@ description: The official website of the tech YouTuber StuffyXP!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stuffyxp.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: StuffyXP
-github_username:  stuffyxps
+github_username:  stuffyxp
 # Build settings
 theme: minima
 plugins:
