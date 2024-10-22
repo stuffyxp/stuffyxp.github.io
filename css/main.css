@@ -82,6 +82,7 @@ and (min-width: 1000px)
 	background-color: rgba(000, 000, 000, 0);
 	color: white;
 	color: solid white !important;
+	width: auto;
 }
 
 #social-boxes {
