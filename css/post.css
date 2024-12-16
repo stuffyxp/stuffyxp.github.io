@@ -64,7 +64,12 @@ and (min-width: 1000px)
 	display: block;
 	background-color: rgba(000, 000, 000, 0);
 	color: white;
+	height: auto;
 	color: solid white !important;
+}
+
+code {
+	color: white !important;
 }
 
 #quicklaunch {

@@ -2,10 +2,10 @@
 layout: blogpost
 title:  How to get Camtasia Recorder 8 working on Windows Vista
 date: 2024-09-28
-image: ../blog/img/2024-09-16/camrec8%207.jpg
+image: ../blog/img/2024-09-28/thumb.png
 ---
 
-(*this is just a filler video [i uploaded a video today](<https://youtube.com/AzWtlbS2qJM>), so why not give you guys some more stuffy content? :)*)
+(*this is just a filler post as [i uploaded a video today](<https://youtube.com/AzWtlbS2qJM>), so why not give you guys some more stuffy content? :)*)
 
 Ok so you've decided to get into video editng and YouTube video making and all that stuff with your good ol' Windows Vista machine, great!!
 ![](/blog/img/2024-09-28/camrec8%201.JPG){: style="max-width: 100; height: auto;"}

@@ -10,12 +10,110 @@ html {
 	background-size: cover;
 }
 
+#ml3-icon {
+	border-radius: 8px;
+	border-color: white;
+	border: 3px white;
+}
+
+/* Remove if necessary, Credits PopUp Page */
+.modal {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.753);
+	display: none;
+}
+.modal:target {
+	display: flex;
+}
+
+#info-text {
+	font-size: 18;
+	text-align: center;
+}
+
+#credits-text {
+	font-size: 18;
+	text-align: center;
+}
+
+#credits-box {
+	width: 1237px;
+	background-color: black;
+	height: 480px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	color: white !important;
+}
+
+.modal-mobile {
+	background-color: rgba(0, 0, 0, 0.753);
+	display: none;
+}
+.modal-mobile:target {
+	display: flex;
+}
+
+code {
+	color: white !important;
+}
+
+#dropdown-betuh {
+	margin: auto;
+	background-color: rgba(000, 000, 000, 0);
+	color: rgba(000, 000, 000, 0);
+	font-size: 25px;
+	border: 0px rgba(000, 000, 000, 0) !important;
+}
+
+#showversionbutton {
+	text-align: center !important;
+	position: relative !important;
+	display: block !important;
+	margin: 0 auto !important;
+}
+
+#credits-box-mobile {
+	width: auto !important;
+	height: auto !important;
+	position: absolute !important;
+}
+
+#mainlinks {
+	position: relative !important;
+	display: block !important;
+	margin: 0 auto !important;
+	padding: 1.5% !important
+}
+
+#dropdown-menu {
+	background-color: rgba(000, 000, 000, 0.35) !important;
+	color: white !important;
+	filter: drop-shadow(5px 5px 10px rgba(000, 000, 000, 0.23));
+	border-radius: 8px;
+	
+}
+
+#dropdown-menu2 {
+	background-color: rgba(000, 000, 000, 0);
+}
+
+#link {
+    background-color: rgba(000, 000, 000, 0);
+    border: 0px rgba(000, 000, 000, 0);
+}
+
 p a {
 	color: rgba(137, 196, 244, 1) !important;
 }
 
 span, ul ,li {
 	color: white !important;
+}
+
+#changelog-text {
+	text-align: left;
 }
 
 #project-boxes {
@@ -25,12 +123,6 @@ span, ul ,li {
 }
 
 #blog-post {
-	text-align: left !important;
-	color: solid white !important;
-}
-
-
-#aboutme {
 	text-align: left !important;
 	color: solid white !important;
 }
@@ -50,6 +142,10 @@ span, ul ,li {
 	position: relative !important;
 	display: block !important;
 	margin: 0 auto !important;
+}
+
+#aboutme {
+	color: white
 }
 
 #logo {
@@ -73,6 +169,10 @@ and (min-width: 1000px)
 	}
 	#navbar {
 		height: 88px;
+	}
+	#credits-box-mobile, #credits-mobile {
+		width: auto !important;
+		position: absolute !important;
 	}
 }
 

@@ -1,0 +1,13 @@
+StuffyXP Website Update 2.1 Changelog
+
+- Added a dropdown button for misc pages (e.g Downloads)
+- Ditched Instagram entirely in favor of Bluesky in the socials page
+- Replaced the old bio for a new one
+- Changed thumbnails of blog posts for new and better ones
+- Changed main links type from link (<a>) to button (<button>) in order to match the padding of the dropdown button (shoutout to Clyron)
+- The website's favicon changes in what page you're on
+- Fixed a typo on <a href="/blog/2024/09/28/how-to-get-camrec8-working-on-win-vista.html">a blog post</a>.
+- Fixed a bug where WOU loads the normal favicon instead of the WOU favicon
+- Added a credits page pop-up
+- The StuffyXP Blog now has its own proper wordmark
+- Edited the "Send me something!" text and icon to an envelope and "Contact me!"

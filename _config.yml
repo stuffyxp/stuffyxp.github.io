@@ -25,8 +25,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stuffyxp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: StuffyXP
 github_username: stuffyxp
-website_ver: StuffyXP Website Version 2.0.1988.main.240916-1408
-codename: "New Coat of Paint"
+website_ver: StuffyXP Website Version 2.1.2076.main.241215-1203
+codename: "The Late Fix"
 bulma_ver: Bulma v1.0.0 
 jekyll_ver: Jekyll v4.3.3
 

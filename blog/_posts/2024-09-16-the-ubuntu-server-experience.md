@@ -2,7 +2,7 @@
 layout: blogpost
 title: The Ubuntu Server experience.
 date: 2024-09-16
-image: ../blog/img/2024-09-16/preview.jpg
+image: ../blog/img/2024-09-16/thumb.jpg
 ---
 
 Well i have gotten again into what is the Linux world, and oh well it was kind of a hassle, today i'll be telling you my experience with the GNOME-less/GUI-less Ubuntu, known as Ubuntu Server.

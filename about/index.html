@@ -1,6 +1,16 @@
 ---
 layout: main
 title: About
+favicon: /img/about.png
 ---
-
-{% include about.html %}
+<h3>About</h3>
+<p>A little description of who i am!</p>
+<div class="content" id="aboutme">
+{% include about.md %}
+</div>
+<style>
+    #aboutme {
+        color: solid white !important;
+        text-align: left !important;
+    }
+    </style>

@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-28T21:38:56+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">StuffyXP Blog</title><subtitle>The official website of the tech YouTuber StuffyXP!</subtitle><entry><title type="html">How to get Camtasia Recorder 8 working on Windows Vista</title><link href="http://localhost:4000/blog/2024/09/28/how-to-get-camrec8-working-on-win-vista.html" rel="alternate" type="text/html" title="How to get Camtasia Recorder 8 working on Windows Vista" /><published>2024-09-28T00:00:00+00:00</published><updated>2024-09-28T00:00:00+00:00</updated><id>http://localhost:4000/blog/2024/09/28/how-to-get-camrec8-working-on-win-vista</id><content type="html" xml:base="http://localhost:4000/blog/2024/09/28/how-to-get-camrec8-working-on-win-vista.html"><![CDATA[<p>(<em>this is just a filler video <a href="https://youtube.com/AzWtlbS2qJM">i uploaded a video today</a>, so why not give you guys some more stuffy content? :)</em>)</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://stuffyxp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://stuffyxp.github.io/" rel="alternate" type="text/html" /><updated>2024-12-16T16:50:12-06:00</updated><id>https://stuffyxp.github.io/feed.xml</id><title type="html">StuffyXP</title><subtitle>The official website of the tech YouTuber StuffyXP!</subtitle><entry><title type="html">How Globed can save your Geometry Dash account</title><link href="https://stuffyxp.github.io/blog/2024/12/15/how-globed-can-save-your-gd-account.html" rel="alternate" type="text/html" title="How Globed can save your Geometry Dash account" /><published>2024-12-15T12:03:21-06:00</published><updated>2024-12-15T12:03:21-06:00</updated><id>https://stuffyxp.github.io/blog/2024/12/15/how-globed-can-save-your-gd-account</id><content type="html" xml:base="https://stuffyxp.github.io/blog/2024/12/15/how-globed-can-save-your-gd-account.html"><![CDATA[<p>Ay’ up! So this might seem weird but this silly mod can actually save your GD account from being compromised.
+How you may ask? Keep reading to found out!</p>
+
+<h1 id="prologue">Prologue</h1>
+
+<p>A few days ago i was playing Geometry Dash with other people via Globed, it’s basically 2.2’s delayed Versus mode made before RubRub even added it, then after going AFK for dinner, i came across the following message when coming back to my lappy…</p>
+
+<p><img src="/blog/img/2024-12-15/globed-error.png" alt="" style="max-width: 100; height: auto;" />
+Logged into my account in a different place?? What does that mean?</p>
+
+<h1 id="the-hacking">The Hacking</h1>
+
+<p>If you’ve been on the <strong>Minecraft</strong> community for a while, this may seem familiar to you.
+<em>I was hacked.</em></p>
+
+<p>Now, I was freaking out, i tried going into the <a href="https://www.boomlings.com/database/accounts/accountManagement.php">Account Management page</a> to try to change my password to no avail.</p>
+
+<h2 id="how-did-i-notice">How did i notice?</h2>
+
+<p>Well i’ll try to explain as best as i can.</p>
+
+<p>When you use Globed for the first time, it will ask you if you agree for a bot to send you a message then delete it for aunthentication. If everything goes right, you’re in!</p>
+
+<p>This method only happens locally, meaning that you will have to do it every single time you install Globed on a GD client, this does not transfer with Steam either.</p>
+
+<p>Now, what happens when you aunthenticate on a new client while a client that already has an open session? (you may know the answer by now…)
+It logs you out and let the new client in! Now it also gives you the prior warning that i showed you.</p>
+
+<p>This is kinda similar to another incident in the Minecraft community, it just gives the same error as seen above.</p>
+
+<h1 id="how-is-this-useful">How is this useful?</h1>
+
+<p>By giving that warning, it advices you that someone else (a hacker) logged into your account, shoutout to the Globed team for adding this.</p>
+
+<p>I emailed RobTop (<a href="mailto:support@robtopgames.com">via the support email</a>) about my compromised account not to found out a day later that i could reset my password via the previously mentioned account management page.
+Which using that reset password method i should’ve changed my password for my main email as well-</p>
+
+<p>Either way this is the end of this blog post, cya! ^^</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[Ay’ up! So this might seem weird but this silly mod can actually save your GD account from being compromised. How you may ask? Keep reading to found out!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://stuffyxp.github.io/blog/img/2024-12-15/thumb.png" /><media:content medium="image" url="https://stuffyxp.github.io/blog/img/2024-12-15/thumb.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to get Camtasia Recorder 8 working on Windows Vista</title><link href="https://stuffyxp.github.io/blog/2024/09/28/how-to-get-camrec8-working-on-win-vista.html" rel="alternate" type="text/html" title="How to get Camtasia Recorder 8 working on Windows Vista" /><published>2024-09-28T00:00:00-06:00</published><updated>2024-09-28T00:00:00-06:00</updated><id>https://stuffyxp.github.io/blog/2024/09/28/how-to-get-camrec8-working-on-win-vista</id><content type="html" xml:base="https://stuffyxp.github.io/blog/2024/09/28/how-to-get-camrec8-working-on-win-vista.html"><![CDATA[<p>(<em>this is just a filler post as <a href="https://youtube.com/AzWtlbS2qJM">i uploaded a video today</a>, so why not give you guys some more stuffy content? :)</em>)</p>
 
 <p>Ok so you’ve decided to get into video editng and YouTube video making and all that stuff with your good ol’ Windows Vista machine, great!!
 <img src="/blog/img/2024-09-28/camrec8%201.JPG" alt="" style="max-width: 100; height: auto;" /></p>
@@ -38,7 +75,7 @@
 
 <p>Now just continue your recording and video editing as usual!</p>
 
-<p><em>Note: Applying the compatibility settings under Windows XP SP2 may also work, but it’ll lack audio support when recording, so this is better if you are recording something audio focused or anything else related to audio.</em></p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[(this is just a filler video i uploaded a video today, so why not give you guys some more stuffy content? :))]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/blog/img/2024-09-16/camrec8%207.jpg" /><media:content medium="image" url="http://localhost:4000/blog/img/2024-09-16/camrec8%207.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Ubuntu Server experience.</title><link href="http://localhost:4000/blog/2024/09/16/the-ubuntu-server-experience.html" rel="alternate" type="text/html" title="The Ubuntu Server experience." /><published>2024-09-16T00:00:00+00:00</published><updated>2024-09-16T00:00:00+00:00</updated><id>http://localhost:4000/blog/2024/09/16/the-ubuntu-server-experience</id><content type="html" xml:base="http://localhost:4000/blog/2024/09/16/the-ubuntu-server-experience.html"><![CDATA[<p>Well i have gotten again into what is the Linux world, and oh well it was kind of a hassle, today i’ll be telling you my experience with the GNOME-less/GUI-less Ubuntu, known as Ubuntu Server.</p>
+<p><em>Note: Applying the compatibility settings under Windows XP SP2 may also work, but it’ll lack audio support when recording, so this is better if you are recording something audio focused or anything else related to audio.</em></p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[(this is just a filler post as i uploaded a video today, so why not give you guys some more stuffy content? :))]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://stuffyxp.github.io/blog/img/2024-09-28/thumb.png" /><media:content medium="image" url="https://stuffyxp.github.io/blog/img/2024-09-28/thumb.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Ubuntu Server experience.</title><link href="https://stuffyxp.github.io/blog/2024/09/16/the-ubuntu-server-experience.html" rel="alternate" type="text/html" title="The Ubuntu Server experience." /><published>2024-09-16T00:00:00-06:00</published><updated>2024-09-16T00:00:00-06:00</updated><id>https://stuffyxp.github.io/blog/2024/09/16/the-ubuntu-server-experience</id><content type="html" xml:base="https://stuffyxp.github.io/blog/2024/09/16/the-ubuntu-server-experience.html"><![CDATA[<p>Well i have gotten again into what is the Linux world, and oh well it was kind of a hassle, today i’ll be telling you my experience with the GNOME-less/GUI-less Ubuntu, known as Ubuntu Server.</p>
 
 <h2 id="the-prologue">The Prologue</h2>
 
@@ -96,4 +133,4 @@ Then i went on to customize the panels a bit, making the bottom one (where the l
 <p>Well after this rollercoaster of shenanigans, everything worked out, and i learned alot about Linux itself, that’s a win-win situation for me!
 Now with a working development enviroment, expect more of this soon, new experiences, new shenanigans, new blog posts!</p>
 
-<p>Oh, and also welcome to the new website! Have a great day!</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[Well i have gotten again into what is the Linux world, and oh well it was kind of a hassle, today i’ll be telling you my experience with the GNOME-less/GUI-less Ubuntu, known as Ubuntu Server.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/blog/img/2024-09-16/preview.jpg" /><media:content medium="image" url="http://localhost:4000/blog/img/2024-09-16/preview.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Oh, and also welcome to the new website! Have a great day!</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[Well i have gotten again into what is the Linux world, and oh well it was kind of a hassle, today i’ll be telling you my experience with the GNOME-less/GUI-less Ubuntu, known as Ubuntu Server.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://stuffyxp.github.io/blog/img/2024-09-16/thumb.jpg" /><media:content medium="image" url="https://stuffyxp.github.io/blog/img/2024-09-16/thumb.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
