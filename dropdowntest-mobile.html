@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }} ~ StuffyXP</title>
+        <link rel="stylesheet" href="../css/main.css" type="text/css">
+        <link rel="stylesheet" href="/css/bulma.css">
+        <link rel="me" href="https://wetdry.world/@stuffyxp">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ page.url }}">
+        <meta property="og:title" content="{{ page.title }} ~ StuffyXP">
+        <meta property="og:image" content="https://stuffyxp.github.io/img/logo.png">
+        <meta property="og:description" content="StuffyXP's personal website.">
+        <link rel="icon" type="image" href="{{ page.favicon }}">
+        <div class="box" id="navbar">
+            <div class="level">
+                <div class="control">
+            <img id="logo" src="../img/stuffyxp_wordmark.png" alt="StuffyXP Wordmark" title="StuffyXP" height="59px" width="215px">
+            </div>
+            <div class="control">
+                <div class="container links" id="navbar-links">
+                  <div class="button" id="link">
+                    <a href="../"><img src="../img/home.png" width="40px" height="40px">&nbsp;<span class="is-hidden-mobile">Home</span></a>
+                  </div>
+                  <div class="button" id="link">
+                    <a href="../blog"><img src="../img/blog.png" width="40px" height="40px">&nbsp;<span class="is-hidden-mobile">Blog</span></a>
+                    </div>
+                    <div class="button" id="link">
+                    <a href="../socials"><img src="../img/socials.png" width="40px" height="40px">&nbsp;<span class="is-hidden-mobile">Socials</span></a>
+                    </div>
+                    <div class="button" id="link">
+                    <a href="../projects"><img src="../img/projects.png" width="40px" height="40px">&nbsp;<span class="is-hidden-mobile">Projects</span></a>
+                    </div>
+                    <div class="button" id="link">
+                    <a href="../about"><img src="../img/about.png" width="40px" height="40px">&nbsp;<span class="is-hidden-mobile">About</span></a></span>
+                    </div>
+                    <!-- Beta Dropdown menu below - Remove and modify if neccesary -->
+                    <div class="dropdown is-hoverable is-right" id="dropdown-betuh" style="border: 0px rgba(000, 000, 000, 0) !important;">
+                      <div class="dropdown-trigger" style="border: 0px rgba(000, 000, 000, 0) !important;">
+                        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" style="border: 0px rgba(000, 000, 000, 0) !important;">
+                          <img src="../img/other.png" width="40px" height="40px">&nbsp;<span class="is-hidden-mobile" style="font-size: 25px !important;">Other</span>
+                          <span class="icon is-small">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="dropdown-menu" id="dropdown-menu" role="menu" style="border: 0px rgba(000, 000, 000, 0) !important;">
+                        <div class="dropdown-content" id="dropdown-menu2">
+                          <a href="/downloads/" class="dropdown-item" id="dropdown-menu2"><img src="../img/downloads.png" width="40px" height="40px">&nbsp;Downloads</a>
+                          <a href="#credits" class="dropdown-item" id="dropdown-menu2"><img src="../img/credits.png" width="40px" height="40px"> Credits</a>
+                          <a href="/stuffywebsitewou/" class="dropdown-item" id="dropdown-menu2"><img src="/stuffywebsitewou/img/favicon.png" width="40px" height="40px">Stuffy Website 1.1</a>
+                          <a href="/changelog/" class="dropdown-item" id="dropdown-menu2"><img src="/img/changelog.png" width="40px" height="40px"> Changelog</a>
+                        </div>
+                      </div>
+                      <!-- DropDown for mobile (not working atm) -->
+                      </div>
+                      </div>
+                </div>
+            </div>
+    <script type="text/javascript" src="/js/build.js"></script>
+<script type="text/javascript" src="/js/versionreporterapplet.js"></script>
+    </div>
+    </div>
+    </head>
+    <body>
+      <div id="credits" class="modal">
+        <div class="box" id="credits-box">
+            <h2 style="text-align: center; color: white;" class="title">Credits & Info</h2>
+            <p>&nbsp;</p>
+            <h3 style="text-align: center; color: white; font-size: 26px;" class="subtitle">Credits</h3>
+            <div class="container" id="credits-text">
+            <p><b>Clyron</b>: Giving me documentation and helping me out iwth my terrible code.</p>
+            <p><b>March Mountains</b>: Making the HQ Windows XP Icon Pack</p>
+          </div>
+          <p>&nbsp;</p>
+          <h3 style="text-align: center; color: white; font-size: 26px;" class="subtitle">Information</h3>
+          <p style="text-align: center; font-size: 22px;"><b>Powered by:</b></p>
+          <div class="container" id="info-text">
+          <p>
+            <ul>
+              <li><b>Bulma</b> CSS Framework</li>
+            <li><b>Jekyll</b> Static Site & Blog Generator</li>
+            <li><b>GitHub Pages</b> Hosting Service</li>
+            <li>Spaghetti Code (waaaaaaa~)</li>
+            </ul>
+          </p>
+          </div>
+        </div>
+            <a href="#" style="
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: white;
+            font-size: 30px;
+            text-decoration: none;
+     ">&times;</a>
+        </div>
+    </div>
+        <div class="content" id="content">
+            {{content}}
+            <p>&nbsp;</p>
+        </div>
+
+        <div class="container" id="footer">
+            <p>© 2024 StuffyXP.             The <a href="/go/sourcecode/">source code</a> of this website is licensed under MIT. Powered by <a href="https://bulma.io">Bulma</a> and <a href="https://jekyllrb.com">Jekyll</a>. Hosted on <a href="https://pages.github.com">GitHub Pages</a>.</p>
+            <p>Big shoutout to <a href="https://clyron.is-a.dev">Clyron</a> for helping me out with the code and basically fixing the mobile version, thanks, you're a legend! :D</p>
+            <p><a href="/stuffywebsitewou/"><i>Legacy Website (Stuffy's Website v1.1/WOU)</i></a></p>
+        </div>
+        <div id="build">
+            <div id="info">
+                  <p id="userAgent"></p>
+            </div>
+            </div>
+            <p>&nbsp;</p>
+<div class="is-hidden-widescreen"><a onclick="showVersion()" class="button is-medium is-rounded is-hidden-widescreen is-centered" id="showversionbutton" style="background-color: rgba(000, 000, 000, 0.2); border: 2px rgb(001, 001, 001);">Show Website Version</a></div>
+<p>&nbsp;</p>
+<div id="version" class="is-hidden-widescreen" style="color: white !important;">
+         <p></p>
+<p>&nbsp;</p>
+</div>
+</body>
+</html>
+
