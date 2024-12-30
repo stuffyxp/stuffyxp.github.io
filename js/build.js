@@ -2,7 +2,7 @@ var intervalId;
 
     function displayUserAgent() {
         var userAgentString = navigator.userAgent;
-        var htmlContent = '<i class="fas fa-circle-info"></i>&nbsp;\StuffyXP Website "Better Late than Never" Version 2.1.2091.main.241216-1650: Bulma v1.0.0 & Jekyll v4.3.3&nbsp;&nbsp;<i class="fas fa-user-gear"></i>&nbsp;' + userAgentString;
+        var htmlContent = '<i class="fas fa-circle-info"></i>&nbsp;\StuffyXP Website "Happy New Year!" Version 2.1.1.2094.main.241224-2005: Bulma v1.0.0 & Jekyll v4.3.3&nbsp;&nbsp;<i class="fas fa-user-gear"></i>&nbsp;' + userAgentString;
         document.getElementById('userAgent').innerHTML = htmlContent;
     }
 

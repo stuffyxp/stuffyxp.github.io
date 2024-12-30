@@ -2,6 +2,11 @@
 
 * {
 	font-family: 'Leelawadee', 'Noto Sans';
+	color: white !important;
+}
+
+#navbar {
+	border-top: 0px;
 }
 
 html {

@@ -1,7 +1,0 @@
-https://www.amazon.com/Qsvbeeqj-Adapter-Transfer-Activity-Indicators/dp/B0DMRWYHGG?dib=eyJ2IjoiMSJ9.fCMhBoPD58UwAkOTSD-atxs3eg1yEbYtHlDA-Ny69Fa1MYicI1Hmey46Dk8G4x2KdRFq1EREe4FeLC-PUFDqdWWpNEI06MMbjPWMQiwnWzxVTjjRz8hD3h3sdf_NubvTQYy-o2Oifnjvl3lRPQDjTXIlCe-gvofg117UKtrL17JjcErZroEvvm6VDy0-Eh-uqacDFz8JoxkVUQaPLG3sfGvhQ0tkXsBhFRC7S9A2_6c.QJv1t4gNL225Mi4CI05ZbQE3a6gUSCsoO7W2kvOE9Hg&dib_tag=se&keywords=sata+to+usb&qid=1733865747&sr=8-10
-
-          <button class="button is-rounded has-background-dark has-text-light is-small js-modal-trigger" data-target="credits">
-            <i class="fas fa-info"></i>&nbsp;&nbsp;Show credits
-          </button>
-        
-        

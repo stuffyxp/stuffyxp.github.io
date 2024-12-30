@@ -59,6 +59,44 @@ and (min-width: 1000px)
 	}
 }
 
+/* Remove if necessary, Credits PopUp Page */
+.modal {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.753);
+	display: none;
+}
+.modal:target {
+	display: flex;
+}
+
+#info-text {
+	font-size: 18;
+	text-align: center;
+}
+
+#credits-box-mobile {
+	width: auto !important;
+	height: auto !important;
+	position: absolute !important;
+	background-color: rgba(000, 000, 000, 0.23);
+}
+
+#credits-text {
+	font-size: 18;
+	text-align: center;
+}
+
+#credits-box {
+	width: 1237px;
+	background-color: rgba(000, 000, 000, 0.23);
+	height: 480px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	color: white !important;
+}
+
 #navbar {
 	position: relative;
 	display: block;
