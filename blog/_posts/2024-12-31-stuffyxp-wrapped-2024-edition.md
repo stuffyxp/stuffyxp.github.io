@@ -3,6 +3,7 @@ layout: blogpost
 title: "StuffyXP Wrapped: 2024 Edition"
 date: December 31st, 2024 @ 1:24pm [GMT-6/Central Timezone]
 image: /blog/img/2024-12-31/stxpwrapped24.png
+desc: 2024 has been crazy, innit?
 ---
 
 Oh boy it has sure been a hell of a ride this year innit? The channel is no exception!

@@ -3,6 +3,7 @@ layout: blogpost
 title:  How to get Camtasia Recorder 8 working on Windows Vista
 date: 2024-09-28
 image: ../blog/img/2024-09-28/thumb.png
+desc: Why are you using Windows Vista for this stuff~
 ---
 
 (*this is just a filler post as [i uploaded a video today](<https://youtube.com/AzWtlbS2qJM>), so why not give you guys some more stuffy content? :)*)

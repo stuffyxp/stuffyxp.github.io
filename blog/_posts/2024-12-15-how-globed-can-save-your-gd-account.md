@@ -3,6 +3,7 @@ layout: blogpost
 date: 2024-12-15 12:03:21 PM GMT-6
 title: How Globed can save your Geometry Dash account
 image: ../blog/img/2024-12-15/thumb.png
+desc: Shoutout to Globed
 ---
 
 Ay' up! So this might seem weird but this silly mod can actually save your GD account from being compromised.
