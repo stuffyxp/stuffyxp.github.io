@@ -17,7 +17,7 @@
 <p>{{ post.content | strip_html | truncatewords: 27 }}</p>
 </div>
 <div class="column is-narrow">
-<a class="button" style="background-color: rgba(000, 000, 000, 0.1); border: 2px rgb(001, 001, 001);" href="/stuffyxp-website/{{ post.url }}">Read</a>
+<a class="button" style="background-color: rgba(000, 000, 000, 0.1); border: 2px rgb(001, 001, 001);" href="/stuffyxp-website{{ post.url }}">Read</a>
 </div>
 </div>
 {% endfor %}
