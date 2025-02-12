@@ -1,7 +1,7 @@
 function showVersion() {
   var x = document.getElementById("version");
   if (x.innerHTML === "") {
-    x.innerHTML = "StuffyXP Website \"Better Late than Never\" Version 2.1.1.2094.main.241224-2005, Bulma v1.0.0 & Jekyll v4.3.3";
+    x.innerHTML = "StuffyXP Website \"One Last Fix\" Version 2.1.2.2100.main.250212-0923, Bulma v1.0.0 & Jekyll v4.3.3";
   } else {
     x.innerHTML = "";
   }
